@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6390104197,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DaConsultaAoCarrinho_Cucumber.Iniciar()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Caminho Feliz",
+        "description": "",
+        "id": "consultacompra;caminho-feliz",
+        "after": [
+          {
+            "result": {
+              "duration": 1364536655,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DaConsultaAoCarrinho_Cucumber.Finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21707856637,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que acesso o site Submarino",
+            "match": {
+              "location": "DaConsultaAoCarrinho_Cucumber.que_acesso_o_site_Walmart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13598850416,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pesquiso por \"smartphone\" e pressiona Enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "smartphone",
+                  "offset": 14
+                }
+              ],
+              "location": "DaConsultaAoCarrinho_Cucumber.pesquiso_por_e_pressiona_Enter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 708209675,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "exibe a lista de produtos relacionados com \"smartphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "smartphone",
+                  "offset": 44
+                }
+              ],
+              "location": "DaConsultaAoCarrinho_Cucumber.exibe_a_lista_de_produtos_relacionados_com(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "ConsultaCompra",
+    "description": "Usu�rios\r\nPatricia � uma cliente frequente\r\nWagner � um visitante eventual",
+    "id": "consultacompra",
+    "keyword": "Feature",
+    "uri": "DaConsultaAoCarrinho_Cucumber.feature"
+  }
+]
