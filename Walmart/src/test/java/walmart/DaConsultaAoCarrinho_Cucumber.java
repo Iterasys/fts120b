@@ -43,7 +43,7 @@ public class DaConsultaAoCarrinho_Cucumber {
 	public void Print(String nomePrint) throws IOException {
 		File foto =  ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(foto,
-		new File("C:\\Users\\Gabriel Correia\\eclipse-workspace\\Walmart\\target\\evidencias\\" + pastaPrint + "\\" + nomePrint + ".png"));
+		new File("C:\\Users\\Gabriel Correia\\git\\fts120be\\Walmart\\target\\evidencias\\" + pastaPrint + "\\" + nomePrint + ".png"));
 	}
 	
 	// Método de Leitura de Dados
@@ -87,7 +87,7 @@ public class DaConsultaAoCarrinho_Cucumber {
 	public void Iniciar() {
 		baseUrl = "https://www.submarino.com.br";
 		System.setProperty("webdriver.chrome.driver", 
-		"C:\\Users\\Gabriel Correia\\eclipse-workspace\\Walmart\\drivers\\chrome\\74\\chromedriver.exe");
+		"C:\\Users\\Gabriel Correia\\git\\fts120be\\Walmart\\drivers\\chrome\\74\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
