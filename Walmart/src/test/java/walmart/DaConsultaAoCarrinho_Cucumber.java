@@ -45,7 +45,7 @@ public class DaConsultaAoCarrinho_Cucumber {
 		FileUtils.copyFile(foto,
 		new File("C:\\Users\\Gabriel Correia\\git\\fts120be\\Walmart\\target\\evidencias\\" + pastaPrint + "\\" + nomePrint + ".png"));
 	}
-	
+	// .
 	// Método de Leitura de Dados
     // Atributos de Massa de Teste
 	private String id;
